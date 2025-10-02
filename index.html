@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <title>Real Racing 3 Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <div class="header">
+  <a href="./manual.html", class="manual">How to use?</a>
+  <span id="dailyRewards">Daily Reward: </span><a href="https://www.youtube.com/@ME7_RR3", class="promo">RR3 Tips</a></div>
+</head>
+<body>
+  <h2>Real Racing 3 Calculator</h2>
+  <span>Earnings: </span><input type="number", placeholder="0", id="earnings", class="earnings"><span>R$/Fame</span>
+  <div><span>Bonusday: </span><input type="number", placeholder="0", id="bonusday", class="bonusday"><span>%</span></div>
+  <div><span>Dist/Lap: </span><input type="number", placeholder="0,00", id="distance"><span>km</span></div>
+  <div><span>Distance: </span><input type="number", placeholder="0", id="laps", class="laps"><span>km</span></div><div><span>Time/Lap: </span><input type="number" placeholder="0" id="time"><span>s</span></div>
+  <div><span>Money: </span><input type="number", placeholder="0", id="money"><span>R$/Fame</span></div>
+  <button onclick="calculate()", class="calculate">Calculate</button>
+  <br>
+  <p id="result">Result: 0 R$/Fame, Time: 0h 00min</p>
+  <br>
+  <span class="agent">Manager/Agent</span><span class="cdtxt">Calculate Distance</span>
+  <br>
+  <input type="checkbox", id="x2", class="checkbox">
+  <input type="checkbox", id="caldis", class="checkbox2">
+  <script src="script.js"></script>
+</body>
+</html>
